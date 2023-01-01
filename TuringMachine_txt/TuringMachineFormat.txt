@@ -1,0 +1,18 @@
+// <TURING MACHINE FILE FORMAT------------------------------------------------------------------------------------------------------>
+/*-----------------------------------------------------------------------------------------------------------------------------------
+- TuringMachine.txt Format:
+(I/O stream is written in a single line with or wihtout spaces)
+ex.
+aaabbaba bbbabaaaa abbbababa
+(initial state)
+ex.
+q0
+(final states separated by a space and in a single line)
+ex.
+q3 q5
+(each rule goes in a single line and is of the form <current state> <input symbol> | <output symbol> <direction I/O header moves> <next state>)
+(*white space symbol " " can be specified with "%" symbol)
+ex.
+q0 a | a > q1
+q1 b | a < q0
+-----------------------------------------------------------------------------------------------------------------------------------*/
